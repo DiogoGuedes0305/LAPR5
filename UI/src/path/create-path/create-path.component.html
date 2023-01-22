@@ -1,0 +1,108 @@
+<h2>Create Path</h2>
+<form #path="ngForm" (ngSubmit)="onClickSubmit(path.value)">
+  <div class="mb-3">
+    <label for="warehouseDeparture" class="form-label"
+      >Departure Warehouse</label
+    >
+    <select
+      name="DepartureWarehouse"
+      id="DepartureWarehouse"
+      class="form-select form-select-lg mb-3"
+      aria-label=".form-select-lg example"
+      aria-describedby="warehouseDepartureDescriber"
+      ngModel
+      required
+    >
+      <option value="W1">W1</option>
+      <option value="W2">W2</option>
+      <option value="W3">W3</option>
+    </select>
+    <div id="warehouseDepartureDescriber" class="form-text">
+      Departure Warehouse
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="warehouseDeparture" class="form-label">Arrival Warehouse</label>
+    <select
+      name="ArrivalWarehouse"
+      id="ArrivalWarehouse"
+      class="form-select form-select-lg mb-3"
+      aria-label=".form-select-lg example"
+      aria-describedby="warehouseDepartureDescriber"
+      ngModel
+      required
+    >
+      <option value="W1">W1</option>
+      <option value="W2">W2</option>
+      <option value="W3">W3</option>
+    </select>
+    <div id="warehouseDepartureDescriber" class="form-text">
+      Arrival Warehouse
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="time" class="form-label">Time</label>
+    <input
+      name="time"
+      min="0"
+      type="number"
+      class="form-control"
+      id="time"
+      aria-describedby="timeDescriber"
+      ngModel
+      required
+    />
+    <div id="timeDescriber" class="form-text">
+      Time expended between warehouses
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="extraTime" class="form-label">Extra Time</label>
+    <input
+      name="extraTime"
+      min="0"
+      type="number"
+      class="form-control"
+      id="extraTime"
+      aria-describedby="extraTimeDescriber"
+      ngModel
+      required
+    />
+    <div id="extraTimeDescriber" class="form-text">
+      Extra Time Necessary To Charge Battery
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="distance" class="form-label">Distance</label>
+    <input
+      name="distance"
+      min="0"
+      type="number"
+      class="form-control"
+      id="distance"
+      aria-describedby="distanceDescriber"
+      ngModel
+      required
+    />
+    <div id="distanceDescriber" class="form-text">
+      Distance between warehouses
+    </div>
+  </div>
+  <div class="mb-3">
+    <label for="energyExpended" class="form-label">Energy Expended</label>
+    <input
+      name="energyExpended"
+      min="0"
+      type="number"
+      class="form-control"
+      id="energyExpended"
+      aria-describedby="energyExpendedDescriber"
+      ngModel
+      required
+    />
+    <div id="energyExpendedDescriber" class="form-text">
+      Energy Expended between warehouses
+    </div>
+  </div>
+  <button type="submit" value="submit" class="btn btn-primary">Create</button>
+</form>

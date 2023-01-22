@@ -1,0 +1,35 @@
+<h2>Warehousess</h2>
+<div>
+    <h2>Create Warehouse</h2>
+    <form #warehouse="ngForm" (ngSubmit)="onClickSubmit(warehouse.value)">
+        <div class="mb-3">
+            <label for="warehouseDescription" class="form-label">Warehouse Description</label>
+            <input id="warehouseDescription" name="warehouseDescription" type="text" class="form-control"
+                aria-describedby="warehouseDescriptionDescriber" ngModel required />
+        </div>
+        <div class="mb-3">
+            <label for="warehouseAddress" class="form-label">Warehouse Address</label>
+            <input id="warehouseAddress" name="warehouseAddress" min="0" type="text"
+                class="form-control"
+                aria-describedby="warehouseAddressDescriber" ngModel required />
+        </div>
+        <div class="mb-3">
+            <label for="warehouseLat" class="form-label">Warehouse Latitud </label>
+            <input id="warehouseLat" name="warehouseLat" min="0" type="number" class="form-control"
+                 aria-describedby="warehouseLatDescriber" ngModel required />
+        </div>
+        <div class="mb-3">
+            <label for="warehouseLong" class="form-label">Warehouse Longitud</label>
+            <input id="warehouseLong" name="warehouseLong" min="0" type="number" class="form-control"
+                 aria-describedby="warehouseLongDescriber" ngModel required />
+            
+        </div>
+        <div class="mb-3">
+            <label for="warehouseHeigth" class="form-label">Warehouse heigth</label>
+            <input id="warehouseHeigth" name="warehouseHeigth" min="0" type="number" class="form-control"
+                 aria-describedby="warehouseHeigthDescriber" ngModel required />
+            
+        </div>
+        <button id = "createWarehouse" type="submit" value="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

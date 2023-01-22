@@ -1,0 +1,61 @@
+#  Template .NET Core build
+
+#  This template allows you to validate your .NET Core package.
+#  The workflow allows running tests and code linting on the default branch.
+
+# To run your pipeline on a Windows machine, create a self-hosted Windows runner.
+# For instructions on setting up a Windows runner, see https://support.atlassian.com/bitbucket-cloud/docs/set-up-runners-for-windows/
+
+pipelines:
+  default:
+    - parallel:
+      - step:
+          name: Stop Node
+          script:
+          - pipe: atlassian/ssh-run:0.4.1
+            variables:
+              SSH_USER: 'root'
+              SERVER: 'vsgate-ssh.dei.isep.ipp.pt'
+              COMMAND: 'pm2 delete node'
+              MODE: 'command' # Optional
+              PORT: '10681' # Optional
+              SSH_KEY: '$MYKEY' # Optional
+      - step:
+          name: Copy node To VM
+          deployment: Production
+          script:
+          - pipe: atlassian/scp-deploy:1.2.1
+            variables:
+              USER: 'root'
+              SERVER: 'vsgate-ssh.dei.isep.ipp.pt'
+              REMOTE_PATH: '/sem_5_pi'
+              LOCAL_PATH: './node'
+              SSH_KEY: $MYKEY
+              EXTRA_ARGS: ["-P", "10681"]
+      - step:
+          name: Start Node
+          script:
+          - pipe: atlassian/ssh-run:0.4.1
+            variables:
+              SSH_USER: 'root'
+              SERVER: 'vsgate-ssh.dei.isep.ipp.pt'
+              COMMAND: '/sem_5_pi/deploy.sh'
+              MODE: 'command' # Optional
+              PORT: '10681' # Optional
+              SSH_KEY: '$MYKEY' # Optional
+      - step:
+          name: Run .net on VM
+          script:
+          - pipe: atlassian/scp-deploy:1.2.1
+            variables:
+              USER: 'root'
+              SERVER: 'vsgate-ssh.dei.isep.ipp.pt'
+              REMOTE_PATH: '/sem_5_pi'
+              LOCAL_PATH: './dotNET'
+              SSH_KEY: $MYKEY
+              EXTRA_ARGS: ["-P", "10718"]
+
+    
+          
+
+ 

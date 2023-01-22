@@ -1,0 +1,74 @@
+<mat-form-field appearance="standard">
+  <mat-label>Filter Table</mat-label>
+  <input matInput placeholder="" search (keyup)="applyFilter($event)" #input />
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+  <table mat-table matSort [dataSource]="dataSource">
+    <ng-container matColumnDef="warehouseDeparture">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Warehouse Departure</th>
+      <td mat-cell *matCellDef="let row">{{row.warehouseDeparture}}</td>
+    </ng-container>
+    <ng-container matColumnDef="warehouseArrival">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Warehouse Arrival</th>
+      <td mat-cell *matCellDef="let row">{{row.warehouseArrival}}</td>
+    </ng-container>
+    <ng-container matColumnDef="distance">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Distance</th>
+      <td mat-cell *matCellDef="let row">{{row.distance}}</td>
+    </ng-container>
+    <ng-container matColumnDef="time">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Time</th>
+      <td mat-cell *matCellDef="let row">{{row.time}}</td>
+    </ng-container>
+    <ng-container matColumnDef="extraTime">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Extra Time</th>
+      <td mat-cell *matCellDef="let row">{{row.extraTime}}</td>
+    </ng-container>
+    <ng-container matColumnDef="energyExpended">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Energy Expended</th>
+      <td mat-cell *matCellDef="let row">{{row.energyExpended}}</td>
+    </ng-container>
+    
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumn"></tr>
+
+    <!-- SHOWS WHEN DATA DOES NOT EXIST  -->
+    <tr *matNoDataRow>
+      <td class="mat-cell" colspan="4"> The filter does not match any item in the data {{input.value}}</td>
+    </tr>
+  </table>
+  <mat-paginator #paginator [pageSize]="pageSize" [pageSizeOptions]="[2,5,10,20]" (page)="pageChangeSize($event)">
+  </mat-paginator>
+  <mat-button-toggle id="previousPage" (click)="back()" [disabled]="pageIndex === 0">Previous Page</mat-button-toggle>
+  <mat-button-toggle id="nextPage" (click)="next()" [disabled]="max">Next Page</mat-button-toggle>
+</div>
+
+
+<!-- <div class="container mt-5">
+  <h2>List of paths</h2>
+
+  <table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Departure Warehouse</th>
+        <th>Arrival warehouse</th>
+        <th>Distance</th>
+        <th>Time</th>
+        <th>Extra Time</th>
+        <th>Energy Expended</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let path of paths">
+        <td>{{ path.warehouseDeparture }}</td>
+        <td>{{ path.warehouseArrival }}</td>
+        <td>{{ path.distance }}</td>
+        <td>{{ path.time }}</td>
+        <td>{{ path.extraTime }}</td>
+        <td>{{ path.energyExpended }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div> -->

@@ -1,0 +1,1 @@
+[![Build Status](https://dev.azure.com/1191938/sem_5_pi/_apis/build/status/1191938.lapr5-22-23?branchName=master)](https://dev.azure.com/1191938/sem_5_pi/_build/latest?definitionId=1&branchName=master)

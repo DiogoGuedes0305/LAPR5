@@ -1,0 +1,83 @@
+<body>
+  <div class="container">
+      <div class="delivery-list-table">
+          <div class="delivery-list col-sm-6">
+              <div class="filter">
+                <mat-form-field appearance="standard">
+                  <mat-label>Filter Table</mat-label>
+                  <input matInput placeholder="Ex: Ex: Id" search (keyup)="applyFilter($event)" #input />
+                </mat-form-field>
+              </div>
+              <div class="mat-elevation-z8">
+                  
+                  <table mat-table [dataSource]="dataSource" matSort (matSortChange)="sortData($event)">
+                      <ng-container matColumnDef="date">
+                          <th mat-header-cell *matHeaderCellDef> Date </th>
+                          <td mat-cell *matCellDef="let delivery"> {{ delivery.date  | date : 'dd/MM/yyyy' }} </td>
+                      </ng-container>
+
+                      <ng-container matColumnDef="weight">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header="weight"> Weight </th>
+                          <td mat-cell *matCellDef="let delivery"> {{ delivery.weight }} </td>
+                      </ng-container>
+
+                      <ng-container matColumnDef="loadTime">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header="loadTime"> Load Time </th>
+                          <td mat-cell *matCellDef="let delivery"> {{ delivery.loadTime }} </td>
+                      </ng-container>
+
+                      <ng-container matColumnDef="unloadTime">
+                          <th mat-header-cell *matHeaderCellDef mat-sort-header="unloadTime"> Unload Time </th>
+                          <td mat-cell *matCellDef="let delivery"> {{ delivery.unloadTime }} </td>
+                      </ng-container>
+
+                      <ng-container matColumnDef="wareId">
+                        <th mat-header-cell *matHeaderCellDef mat-sort-header="warehouse"> Armazém </th>
+                        <td mat-cell *matCellDef="let delivery"> {{ delivery.wareId }} </td>
+                      </ng-container>
+
+
+                      <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+                      <tr mat-row *matRowDef="let delivery; columns: displayedColumn;"></tr>
+
+                      <tr class="mat-row" *matNoDataRow>
+                          <td class="mat-cell" colspan="7"> The filter does not match any item in the data
+                          </td>
+                      </tr>
+
+                  </table>
+
+                  <mat-paginator [pageSize]="10" [pageSizeOptions]="[5,10,15,20]" arial-labels="select page of trucks"></mat-paginator>
+              </div>
+          </div>
+      </div>
+  </div>
+</body> 
+
+
+
+
+<!-- <div class="container mt-5">
+  <h2>List of deliveries</h2>
+
+  <table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Date</th>
+        <th>Weight</th>
+        <th>Load Time</th>
+        <th>Unload Time</th>
+        <th>Warehouse Id</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let delivery of deliveries">
+        <td>{{ delivery.date }}</td>
+        <td>{{ delivery.weight }}</td>
+        <td>{{ delivery.loadTime }}</td>
+        <td>{{ delivery.unloadTime }}</td>
+        <td>{{ delivery.wareId }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>  -->

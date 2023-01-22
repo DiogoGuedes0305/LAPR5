@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+	<title>3D Map</title>
+</head>
+
+<body>
+	<script async src="https://unpkg.com/es-module-shims@1.3.6/dist/es-module-shims.js"></script>
+	<script type="importmap">
+        {
+            "imports": {
+                "three": "../three.js-master/build/three.module.js",
+				"three/addons/": "../three.js-master/examples/jsm/"
+            }
+        }
+    </script>
+	<script type="module">
+		import * as THREE from 'three';
+		import Connection from "./connection.js";
+		import Roundabout from "./roundabout.js";
+		import Road from "./road.js";
+		import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+		import { RGBELoader } from 'three/addons/loaders/RGBELoader.js';
+		import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+		
+
+		let scene, camera, renderer, controls;
+		const K_CIRCULO = 4;
+		const INFINITESIMO = 0.01;
+		const K_LIGACAO = 2;
+		let list_arm= ['3dModels/uploads_files_3197447_factory.glb','3dModels/uploads_files_3870862_AirportHangar.glb'];
+		function initialize() {
+
+			scene = new THREE.Scene();
+			
+			scene.background = new THREE.CubeTextureLoader().load([
+            	'skybox/ocean_ft.jpg',
+            	'skybox/ocean_bk.jpg',
+            	'skybox/ocean_up.jpg',
+            	'skybox/ocean_dn.jpg',
+            	'skybox/ocean_rt.jpg',
+            	'skybox/ocean_lf.jpg'
+        	]);
+
+        	renderer = new THREE.WebGLRenderer({ antialias: true });
+        	renderer.setSize(window.innerWidth, window.innerHeight);
+        	document.body.appendChild(renderer.domElement);
+
+			// camara
+			camera = new THREE.PerspectiveCamera(60, window.innerWidth / window.innerHeight, 45, 30000);
+			camera.position.set(-900, -200, -900);
+			camera.lookAt(0, 100, 0);
+			
+
+			// controls
+			controls = new OrbitControls(camera, renderer.domElement);
+			controls.dampingFactor = 0.1;
+			controls.enableDamping = true;
+			controls.maxPolarAngle = Math.PI / 2;
+			controls.screenSpacePanning = false;
+			controls.minDistance = 0;
+			controls.maxDistance = 2500;
+			controls.target.set(0, 200, 0);
+
+			const directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
+			scene.add(directionalLight);
+
+        	setUpScene();
+    	}
+
+		function setUpScene() {
+
+			let roadWidth = 12;
+			let conections=[];
+			let ri = K_CIRCULO * 7;
+
+			let warehouses = [
+				{ "id": 1, "latitude": 40.9321, "longitude": 8.2451, "altitude": 250 },
+				{ "id": 2, "latitude": 41.0072, "longitude": 8.6410, "altitude": 550 },
+				{ "id": 3, "latitude": 42.1115, "longitude": 8.7613, "altitude": 200 },
+				{ "id": 4, "latitude": 41.2279, "longitude": 8.6210, "altitude": 700 },
+				{ "id": 5, "latitude": 41.1844, "longitude": 8.6963, "altitude": 350 },
+				{ "id": 6, "latitude": 40.8387, "longitude": 8.4770, "altitude": 750 },
+				{ "id": 7, "latitude": 41.2052, "longitude": 8.3304, "altitude": 0 },
+				{ "id": 8, "latitude": 41.1579, "longitude": 8.6291, "altitude": 600 },
+				{ "id": 9, "latitude": 41.3804, "longitude": 8.7609, "altitude": 400 },
+				{ "id": 10, "latitude": 40.9268, "longitude": 8.5483, "altitude": 100 },
+				{ "id": 11, "latitude": 41.3431, "longitude": 8.4738, "altitude": 650 },
+				{ "id": 12, "latitude": 40.9005, "longitude": 8.4907, "altitude": 300 },
+				{ "id": 13, "latitude": 41.3391, "longitude": 8.5600, "altitude": 450 },
+				{ "id": 14, "latitude": 40.8430, "longitude": 8.3956, "altitude": 50 },
+				{ "id": 15, "latitude": 41.1887, "longitude": 8.4983, "altitude": 800 },
+				{ "id": 16, "latitude": 41.3517, "longitude": 8.7479, "altitude": 150 },
+				{ "id": 17, "latitude": 41.1239, "longitude": 8.6118, "altitude": 500 },
+			];
+			
+			let i=0;
+			warehouses.forEach(elem => {
+				if(i==2){
+					i=0;
+					
+				}
+				let elemCoords = calculateCoordinates(elem);
+				let numConnections = closestConnections(warehouses, elem.longitude, elem.altitude, elem.latitude, elem.id);
+				
+				// Add Roundabouts
+				let roundabout = new Roundabout(elemCoords, ri, INFINITESIMO);
+				scene.add(roundabout.object);
+				const gltfLoader = new GLTFLoader();
+				if(list_arm[i].includes("factory")){
+					gltfLoader.load(list_arm[i], (gltf) => {
+                		let rootAux = gltf.scene;
+                		let root = rootAux.clone();
+					
+						root.scale.set(0.3, 0.3, 0.3);
+						
+							root.position.set(elemCoords.x ,elemCoords.y, elemCoords.z -2);
+
+                		scene.add(root);
+
+            	});
+				}else{
+					gltfLoader.load(list_arm[i], (gltf) => {
+                		let rootAux = gltf.scene;
+                		let root = rootAux.clone();
+	
+						root.scale.set(1, 1, 1);
+							
+						
+                		root.position.set(elemCoords.x ,elemCoords.y, elemCoords.z -2);
+
+                		scene.add(root);
+
+            	});
+				}
+				i++;
+
+				numConnections.forEach(connection => {
+					
+					conections.push({ id1: connection.idA, id2: connection.idB });
+
+					if (!conections.includes({ id1: connection.idA, id2: connection.idB }) && !conections.includes({ id1: connection.idB, id2: connection.idA })) {
+
+						let connectCoords = calculateCoordinates(connection);
+
+						// Add Connections
+						let connectAngle = createConnections(elemCoords, connectCoords, ri, roadWidth, K_LIGACAO);
+
+						// Add Roads
+						let road = new Road(elemCoords, connectCoords, connectAngle, ri, roadWidth, K_LIGACAO);
+						scene.add(road.object);
+					}
+				});
+			});
+		}
+
+		function createRoad(){
+
+		}
+
+		// Connections
+		function createConnections(elemCoords, connectCoords, ri, roadWidth, K_LIGACAO){
+			
+			let elemAngle = Math.atan2((elemCoords.z - connectCoords.z), (elemCoords.x - connectCoords.x));
+			let connectAngle = Math.atan2((connectCoords.z - elemCoords.z), (connectCoords.x - elemCoords.x));
+			// Criar 2 novas connections para o elemento e sua respetiva connecção noutra rotunda
+			let elemConnection = new Connection(connectCoords, ri, elemAngle, roadWidth, K_LIGACAO);
+			let connectConnection = new Connection(elemCoords, ri, connectAngle, roadWidth, K_LIGACAO);
+			scene.add(elemConnection.object);
+			scene.add(connectConnection.object);
+			return connectAngle;
+		}
+
+		// Utils
+		function calculateCoordinates(element) {
+        	return {
+            	x: ((100 / (8.7613 - 8.2451)) * (element.longitude - 8.2451) - 50) * 40,
+				y: ((50 / 100) * element.altitude),
+            	z: ((100 / (42.1115 - 40.8387)) * (element.latitude - 40.8387) - 50) * 40
+        	};
+    	}
+
+		function closestConnections(warehouses, x, y, z, id) {
+			let distances = [];
+			for (let i = 0; i < warehouses.length; i++) {
+				let x1 = warehouses[i].longitude;
+				let z1 = warehouses[i].latitude;
+				let distance = Math.sqrt(Math.pow((x - x1),2) + (Math.pow((z - z1),2)));
+
+				if (warehouses[i].id != id)
+					distances.push({ 
+						idB: warehouses[i].id, idA: id, distance: distance, 
+						longitude: x1, latitude: z1, altitude: warehouses[i].altitude });
+			}
+			distances.sort(function (a, b) { return a.distance - b.distance; });
+			return distances.slice(0, 2);
+		}
+
+		function windowResize() {
+			camera.aspect = window.innerWidth / window.innerHeight;
+			camera.updateProjectionMatrix();
+			renderer.setSize(window.innerWidth, window.innerHeight);
+		}
+
+		function animate() {
+			requestAnimationFrame(animate);
+			controls.update();
+			renderer.render(scene, camera);
+		}
+
+		initialize();
+		animate();
+
+	</script>
+</body>
+
+</html>

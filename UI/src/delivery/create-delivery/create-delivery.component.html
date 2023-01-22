@@ -1,0 +1,45 @@
+<h2>Delivery</h2>
+<div>
+    <h2>Create Delivery</h2>
+    <form #delivery="ngForm" (ngSubmit)="onClickSubmit(delivery.value)">
+        <div class="mb-3">
+            <label for="date" class="form-label">Date</label>
+            <input id="date" name="date" type="datetime-local" class="form-control"
+                aria-describedby="dateDescriber" ngModel required />
+                
+        </div>
+        <div class="mb-3">
+            <label for="weight" class="form-label">Weight</label>
+            <input id="weight" name="weight" min="0" type="number" class="form-control"
+                aria-describedby="dateDescriber" ngModel required />
+                <div id="dateDescriber" class="form-text">
+                    The delivery weight
+                </div>
+        </div>
+        <div class="mb-3">
+            <label for="loadTime" class="form-label">Load Time</label>
+            <input id="loadTime" name="loadTime" min="0" type="number" class="form-control"
+                id="loadTime" aria-describedby="loadTimeDescriber" ngModel required />
+            <div id="loadTimeDescriber" class="form-text">
+                The loading time in minutes
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="unloadTime" class="form-label">Unload Time</label>
+            <input id="unloadTime" name="unloadTime" min="0" type="number" class="form-control"
+                id="unloadTime" aria-describedby="unloadTimeDescriber" ngModel required />
+            <div id="unloadTimeDescriber" class="form-text">
+                The unloading time in minutes
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="wareId" class="form-label">Warehouse Id</label>
+            <input id="wareId" name="wareId" type="text" class="form-control"
+                id="wareId" aria-describedby="wareIdDescriber" ngModel required />
+            <div id="wareId" class="form-text">
+                The warehouse id referent of this delivery
+            </div>
+        </div>
+        <button id = "createDelivery" type="submit" value="submit" class="btn btn-primary">Create</button>
+    </form>
+</div>

@@ -1,0 +1,187 @@
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\appsettings.Development.json
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\appsettings.json
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.exe
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.deps.json
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.json
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.dev.json
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CopyComplete
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\refint\DDDNetCore.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\tiago\Desktop\3 ano\ARQSI\nunopsilva-dddnetcore-c2122b82f1b9\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.Manifest.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\refint\DDDNetCore.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\appsettings.Development.json
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\appsettings.json
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.exe
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.deps.json
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.json
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.dev.json
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.Manifest.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CopyComplete
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\josed\OneDrive\Documentos\Isep\Arqsi\SPA\lapr5-22-23\obj\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\refint\DDDNetCore.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.Manifest.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\appsettings.Development.json
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\appsettings.json
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.exe
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.deps.json
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.json
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.dev.json
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CopyComplete
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\tiago\Documents\1191938-lapr5-22-23-57082e05e7e1\dotNET\obj\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\appsettings.Development.json
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\appsettings.json
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.exe
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.deps.json
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.json
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.dev.json
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.AssemblyReference.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfoInputs.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfo.cs
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CoreCompileInputs.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\scopedcss\bundle\DDDNetCore.styles.css
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.Manifest.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.RazorTargetAssemblyInfo.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CopyComplete
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\refint\DDDNetCore.dll
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.pdb
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\josed\OneDrive\Ambiente de Trabalho\dotNET\obj\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\appsettings.Development.json
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\appsettings.json
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.exe
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.deps.json
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.json
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.runtimeconfig.dev.json
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\DDDNetCore.pdb
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Castle.Core.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.JsonPatch.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.InMemory.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.Relational.Design.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Moq.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Newtonsoft.Json.Bson.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.AssemblyReference.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfoInputs.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.AssemblyInfo.cs
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CoreCompileInputs.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.MvcApplicationPartsAssemblyInfo.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.Manifest.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\staticwebassets\DDDNetCore.StaticWebAssets.xml
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\scopedcss\bundle\DDDNetCore.styles.css
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.RazorTargetAssemblyInfo.cache
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.csproj.CopyComplete
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\ref\DDDNetCore.dll
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.pdb
+c:\Users\bftv\Documents\lapr5-22-23\dotNET\obj\Debug\netcoreapp5.0\DDDNetCore.genruntimeconfig.cache
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.Data.SqlClient.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.Identity.Client.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\System.Configuration.ConfigurationManager.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\System.Runtime.Caching.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\bftv\Documents\lapr5-22-23\dotNET\bin\Debug\netcoreapp5.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll

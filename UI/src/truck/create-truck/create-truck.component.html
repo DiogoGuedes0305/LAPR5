@@ -1,0 +1,101 @@
+<h2>Trucks</h2>
+<div>
+    <h2>Create Truck</h2>
+    <form #truck="ngForm" (ngSubmit)="onClickSubmit(truck.value)">
+        <div class="mb-3">
+            <label for="truckPlate" class="form-label">Truck Plate</label>
+            <input id="truckPlate" name="truckPlate" type="text" class="form-control"
+                aria-describedby="truckPlateDescriber" ngModel required />
+        </div>
+        <div class="mb-3">
+            <label for="truckAutonomyWithCargo" class="form-label">Autonomy With Cargo</label>
+            <input id="truckAutonomyWithCargo" name="truckAutonomyWithCargo" min="0" type="number"
+                truckPlate="new-truck" class="form-control"
+                aria-describedby="truckAutonomyWithCargoDescriber" ngModel required />
+                <div id="truckAutonomyWithCargoDescriber" class="form-text">
+                    The truck autonomy with cargo
+                </div>
+        </div>
+        <div class="mb-3">
+            <label for="truckBatteryEnergy" class="form-label">Battery Energy </label>
+            <input id="truckBattteryEnergy" name="truckBatteryEnergy" min="0" type="number" class="form-control"
+                id="truckBatteryEnergy" aria-describedby="truckBatteryEnergyDescriber" ngModel required />
+            <div id="truckBatteryEnergyDescriber" class="form-text">
+                The total energy of the battery
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="truckCargoCapacity" class="form-label">Cargo Capacity </label>
+            <input id="truckCargoCapacity" name="truckCargoCapacity" min="0" type="number" class="form-control"
+                id="truckCargoCapacity" aria-describedby="truckCargoCapacityDescriber" ngModel required />
+            <div id="truckCargoCapacityDescriber" class="form-text">
+                The total cargo capacity of the truck
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="truckFastRechargeTime" class="form-label">Recharge Time </label>
+            <input id="truckFastRechargeTime" name="truckFastRechargeTime" min="0" type="number" class="form-control"
+                id="truckFastRechargeTime" aria-describedby="truckFastRechargeTimeDescriber" ngModel required />
+            <div id="truckFastRechargeTime" class="form-text">
+                The time of recharge of the truck
+            </div>
+        </div>
+        <div class="mb-3">
+            <label for="truckTare" class="form-label">Tare </label>
+            <input id="truckTare" name="truckTare" min="0" type="number" class="form-control" id="truckTare"
+                aria-describedby="truckTareDescriber" ngModel required />
+            <div id="truckTareDescriber" class="form-text">
+                The tare of the truck
+            </div>
+        </div>
+        <button id = "createTruck" type="submit" value="submit" class="btn btn-primary"><a style = "all:unset;" href = "/createTruck"></a>Create</button>
+    </form>
+</div>
+
+<!-- <div class="main-div">
+    <mat-card>
+        <mat-card-header>
+            <mat-card-title>
+                <h1>Create Truck</h1>
+            </mat-card-title>
+        </mat-card-header>
+        <mat-card-content class="sec-div">
+            <form [formGroup]="formCreateTruck" (ngSubmit)="onClickSubmit()">
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Plate</mat-label>
+                    <input matInput type="text" formControlName="truckPlate" required
+                        pattern="/^([A-Z]){2}-(\d){2}-(\d){2}|(\d){2}-([A-Z]){2}-(\d){2}|(\d){2}-(\d){2}-([A-Z]){2}|([A-Z]){2}-(\d){2}-([A-Z]){2}"
+                        required minlength="8" maxlength="8">
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Autonomy With Cargo</mat-label>
+                    <input matInput type="number" formControlName="truckAutonomyWithCargo" required>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Battery Energy</mat-label>
+                    <input matInput type="number" formControlName="truckBatteryEnergy" required>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Cargo Capacity</mat-label>
+                    <input matInput type="number" formControlName="truckCargoCapacity" required>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Fast Recharge Time</mat-label>
+                    <input matInput type="number" formControlName="truckFastRechargeTime" required>
+                </mat-form-field>
+                <br>
+                <mat-form-field appearance="fill">
+                    <mat-label>Truck Tare</mat-label>
+                    <input matInput type="number" formControlName="truckTare" required>
+                </mat-form-field>
+                <br>
+                <button mat-raised-button color="primary" type="submit">Create</button>
+            </form>
+        </mat-card-content>
+    </mat-card>
+
+</div> -->

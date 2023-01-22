@@ -1,0 +1,92 @@
+<h2>Planing for a given day</h2>
+<div>
+  <form #planing="ngForm" (ngSubmit)="onClickSubmit(planing.value)">
+    <div class="mb-3">
+      <label for="truckPlate" class="form-label">Truck Plate</label>
+      <input
+        id="truckPlate"
+        name="truckPlate"
+        type="text"
+        class="form-control"
+        aria-describedby="truckPlateDescriber"
+        ngModel
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="date" class="form-label">Date</label>
+      <input
+        id="date"
+        name="date"
+        min="0"
+        type="number"
+        type="text"
+        class="form-control"
+        aria-describedby="dateDescriber"
+        ngModel
+        required
+      />
+    </div>
+    <div class="mb-3">
+      <label for="shearchType" class="form-label">Shearch Type </label>
+      <br />
+      <input
+        type="radio"
+        id="shearchType"
+        name="shearchType"
+        value="bestSolution"
+        ngModel
+        required
+      />
+      Best Solution
+      <input
+        type="radio"
+        id="shearchType"
+        name="shearchType"
+        value="allPaths"
+        ngModel
+        required
+      />
+      All paths
+      <input
+        type="radio"
+        id="shearchType"
+        name="shearchType"
+        value="heuristic1"
+        ngModel
+        required
+      />
+      Heuristic 1
+      <input
+        type="radio"
+        id="shearchType"
+        name="shearchType"
+        value="heuristic2"
+        ngModel
+        required
+      />
+      Heuristic 2
+      <input
+        type="radio"
+        id="shearchType"
+        name="shearchType"
+        value="heuristic3"
+        ngModel
+        required
+      />
+      Heuristic 3
+    </div>
+    <div *ngIf="custo">
+      Custo da rota : {{ custo }}
+      <ul class="warehouses">
+        <li *ngFor="let warehouse of warehouses">
+          <div>Warehouse : {{ warehouse }}</div>
+        </li>
+      </ul>
+    </div>
+
+    <button id="getPath" type="submit" value="submit" class="btn btn-primary">
+      Submit
+    </button>
+  </form>
+</div>

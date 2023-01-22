@@ -1,0 +1,89 @@
+<asl-google-signin-button *ngIf="!user"></asl-google-signin-button>
+<nav *ngIf="user" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Eletric GO</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="container-fluid">
+
+    <ul class="navbar-nav">
+      <a *ngIf="role==='fleetManager' || role==='Admin'" class="navbar-brand" href="/3D Map/index.html" target="_blank">RoadNetwork Visualization</a>
+      
+      <li *ngIf="role==='fleetManager' || role==='Admin'" mdbDropdown class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" mdbDropdownToggle
+          aria-expanded="false" data-bs-toggle="dropdown">
+          Truck
+        </a>
+        <ul  mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a routerLink="/trucks">List All Trucks</a>
+          </li>
+          <li>
+            <a routerLink="/activeTrucks">List Active Trucks</a>
+          </li>
+          <li>
+            <a routerLink="/createTruck">Create New Truck</a>
+          </li>
+        </ul>
+      </li>
+      <!-- Dropdown -->
+      <li *ngIf="role==='logisticsManager' || role==='Admin'" mdbDropdown class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" mdbDropdownToggle
+          aria-expanded="false" data-bs-toggle="dropdown">
+          Path
+        </a>
+        <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a routerLink="/path">List of Paths</a>
+          </li>
+          <li>
+            <a routerLink="/createPath">Create New Path</a>
+          </li>
+        </ul>
+      </li>
+      <!-- Dropdown Planing-->
+      <li *ngIf="role==='logisticsManager' || role==='Admin'" mdbDropdown class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" mdbDropdownToggle
+          aria-expanded="false" data-bs-toggle="dropdown">
+          Planing
+        </a>
+        <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a routerLink="/planing">Get Delivery Plan</a>
+          </li>
+        </ul>
+      </li>
+      <!-- Dropdown -->
+      <li *ngIf="role==='warehouseManager' || role==='Admin'" mdbDropdown class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" mdbDropdownToggle
+          aria-expanded="false" data-bs-toggle="dropdown">
+          Warehouse
+        </a>
+        <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a routerLink="/warehouse">List of Warehouses</a>
+          </li>
+          <li>
+            <a routerLink="/createWarehouse">Create New Warehouse</a>
+          </li>
+        </ul>
+      </li>
+      <!-- Dropdown Delivery -->
+      <li *ngIf="role==='warehouseManager' || role==='Admin'" mdbDropdown class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" mdbDropdownToggle
+          aria-expanded="false" data-bs-toggle="dropdown">
+          Delivery
+        </a>
+        <ul mdbDropdownMenu class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <li>
+            <a routerLink="/delivery">List of Deliveries</a>
+          </li>
+          <li>
+            <a routerLink="/createDelivery">Create New Delivery</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>

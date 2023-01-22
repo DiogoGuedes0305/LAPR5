@@ -1,0 +1,79 @@
+<mat-form-field appearance="standard">
+  <mat-label>Filter Table</mat-label>
+  <input matInput placeholder="" search (keyup)="applyFilter($event)" #input />
+
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+  <table mat-table matSort [dataSource]="dataSource">
+    <ng-container matColumnDef="truckPlate">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Plate</th>
+      <td mat-cell *matCellDef="let row">{{row.truckPlate}}</td>
+    </ng-container>
+    <ng-container matColumnDef="truckAutonomyWithCargo">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Autonomy With Cargo</th>
+      <td mat-cell *matCellDef="let row">{{row.truckAutonomyWithCargo}}</td>
+    </ng-container>
+    <ng-container matColumnDef="truckBatteryEnergy">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Battery Energy</th>
+      <td mat-cell *matCellDef="let row">{{row.truckBatteryEnergy}}</td>
+    </ng-container>
+    <ng-container matColumnDef="truckCargoCapacity">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Cargo Capacity</th>
+      <td mat-cell *matCellDef="let row">{{row.truckCargoCapacity}}</td>
+    </ng-container>
+    <ng-container matColumnDef="truckFastRechargeTime">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Fast Recharge Time</th>
+      <td mat-cell *matCellDef="let row">{{row.truckFastRechargeTime}}</td>
+    </ng-container>
+    <ng-container matColumnDef="truckTare">
+      <th mat-header-cell *matHeaderCellDef mat-sort-header>Truck Tare</th>
+      <td mat-cell *matCellDef="let row">{{row.truckTare}}</td>
+    </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumn"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumn"></tr>
+
+    <!-- SHOWS WHEN DATA DOES NOT EXIST -->
+    <tr *matNoDataRow>
+      <td class="mat-cell" colspan="4"> The filter does not match any item in the data {{input.value}}</td>
+    </tr>
+
+  </table>
+
+  <mat-paginator #paginator [pageSize]="pageSize" [pageSizeOptions]="[2,5,10,20]" (page)="pageChangeSize($event)">
+  </mat-paginator>
+  <mat-button-toggle id="previousPage" (click)="back()" [disabled]="pageIndex === 0">Previous Page</mat-button-toggle>
+  <mat-button-toggle id="nextPage" (click)="next()" [disabled]="max">Next Page</mat-button-toggle>
+</div>
+
+
+
+
+
+<!-- <div class="container mt-5">
+    <h2>Current active trucks</h2>
+  
+    <table class="table table-striped table-bordered table-hover">
+      <thead class="table-dark">
+        <tr>
+          <th>Plate</th>
+          <th>Autonomy With Cargo</th>
+          <th>Battery Energy</th>
+          <th>Cargo Capacity</th>
+          <th>Fast Recharge Time</th>
+          <th>Tare</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let truck of trucks">
+          <td>{{ truck.truckPlate }}</td>
+          <td>{{ truck.truckAutonomyWithCargo }}</td>
+          <td>{{ truck.truckBatteryEnergy }}</td>
+          <td>{{ truck.truckCargoCapacity }}</td>
+          <td>{{ truck.truckFastRechargeTime }}</td>
+          <td>{{ truck.truckTare }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div> -->
